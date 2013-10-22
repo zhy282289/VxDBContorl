@@ -2,6 +2,7 @@
 
 #include <qlist>
 // ∫£Õº–≈œ¢  
+
 struct CVxSailMapInfo
 {
 	QString id;				//Õº∫≈

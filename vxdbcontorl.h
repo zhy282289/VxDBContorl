@@ -21,9 +21,9 @@ public:
 	* 获取海图详细信息
 	*/
 	bool QuerySailMaps(CVxSailMapInfos &sailMapInfos); //海图装订-读取	
-	bool InsertSailMap(); //海图装订-插入	
-	bool DeleteSailMap(); //海图装订-删除	
-	bool UpdateSailMap(); //海图装订-修改
+	bool InsertSailMap(const CVxSailMapInfo &sailMapInfo); //海图装订-插入	
+	bool DeleteSailMap(QString id); //海图装订-删除	
+	bool UpdateSailMap(const CVxSailMapInfo &sailMapInfo); //海图装订-修改
 
 	/*
 	* 通过海图号获取航线的详细信息
@@ -65,7 +65,7 @@ private:
 	QString			m_tbPlanRoute;
 	QString			m_tbRouteInfo;
 	QString			m_tbRouteRecord;
-	QString			m_tbWarnningRecrod;
+	QString			m_tbWarnningRecord;
 };
 
 
