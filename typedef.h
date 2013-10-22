@@ -1,6 +1,6 @@
 #pragma once
 
-
+#include <qlist>
 // 海图信息  
 struct CVxSailMapInfo
 {
@@ -12,7 +12,7 @@ struct CVxSailMapInfo
 	QString postion1;		//位置1
 	QString postion2;		//位置2
 };
-
+typedef QList<CVxSailMapInfo> CVxSailMapInfos;
 // 计划般线  
 struct CVxPlanRoute
 {

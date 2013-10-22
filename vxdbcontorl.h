@@ -20,7 +20,7 @@ public:
 	/*
 	* 获取海图详细信息
 	*/
-	bool QuerySailMaps(); //海图装订-读取	
+	bool QuerySailMaps(CVxSailMapInfos &sailMapInfos); //海图装订-读取	
 	bool InsertSailMap(); //海图装订-插入	
 	bool DeleteSailMap(); //海图装订-删除	
 	bool UpdateSailMap(); //海图装订-修改
